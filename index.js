@@ -30,17 +30,12 @@ ReplaceTaskWebpackPlugin.prototype.apply = function(compiler){
         var asset = compilation.assets[file];
 
         var input = asset.source();
+
         var output = self._applause.replace(input);
 
-        var content;
-
         if(output.content !== false){
-          content = output.content;
-        }else{
-          content = input;
+          compilation.assets[file] = new RawSource(output.content);
         }
-
-        compilation.assets[file] = new RawSource(content);
       });
 
       callback();
