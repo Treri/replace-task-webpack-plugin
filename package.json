@@ -1,0 +1,27 @@
+{
+  "name": "replace-task-webpack-plugin",
+  "version": "1.0.0",
+  "description": "replace task for webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "replace"
+  ],
+  "author": "Treri",
+  "license": "MIT",
+  "dependencies": {
+    "applause": "^1.2.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Treri/replace-task-webpack-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Treri/replace-task-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/Treri/replace-task-webpack-plugin#readme"
+}
