@@ -13,7 +13,8 @@
   "author": "Treri",
   "license": "MIT",
   "dependencies": {
-    "applause": "^1.2.2"
+    "applause": "^1.2.2",
+    "webpack-core": "^0.6.8"
   },
   "devDependencies": {},
   "repository": {
