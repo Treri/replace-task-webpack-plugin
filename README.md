@@ -1,6 +1,12 @@
 ## replace-task-webpack-plugin
 A gulp-replace-task port to webpack
 
+### Install
+
+```sh
+npm install replace-task-webpack-plugin
+```
+
 ### Usage
 
 To replace all `@@foo` to `bar`, and replace all `/baz/` to `bazbaz`.
